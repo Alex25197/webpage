@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { HomepageComponent } from './pages/modules/homepage/homepage.component';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'webpage';
+  valor = 'holahola';
 }
